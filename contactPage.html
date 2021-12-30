@@ -10,14 +10,10 @@
         <div id="title">
             <div>Contact Ami</div>
         </div>
-        <form id="emailForm" autocomplete="off" onsubmit="checkInput()">
+        <form id="emailForm" onsubmit="checkInput()">
             Name:<br><input type="text" id="name" oninput="checkInput()" placeholder="What's your name?" autocomplete="name"></input>
-            <br>Body:<br>
+            <br>Your Email:<br><input type="email" id="email" placeholder="yourcoolemail@coolmail.com" autocomplete="email" required>
             <textarea id="body" oninput="checkInput()" placeholder="What would you like to say?"></textarea>
-            <br>Closing: (Start typing something to autofill!)<br>
-            <div class="autocomplete" style="width:300px;">
-                <input type="text" id="closing" oninput="checkInput()"></input>
-            </div>
             <br>
             <div id="value"></div>
             <br>
