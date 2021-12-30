@@ -85,6 +85,7 @@ textarea#subject {
     font-family: 'Verdana', Geneva, 'Tahoma', sans-serif;
 }
 form#emailForm {
+    background-color: #efefefa8;
     position: absolute;
     left: 25vw;
     right: 25vw;
