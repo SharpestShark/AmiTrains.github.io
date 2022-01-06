@@ -6,27 +6,28 @@
         <link rel="stylesheet" href="styles.css" />
         <title>Contact Ami</title>
     </head>
-    <body>
+    <body id="contactBody">
         <div id="title">
             <div>Contact Ami</div>
         </div>
         <form id="emailForm" onsubmit="checkInput()">
             Name:<br><input type="text" id="name" oninput="checkInput()" placeholder="What's your name?" autocomplete="name"></input>
-            <br>Your Email:<br><input type="email" id="email" placeholder="yourcoolemail@coolmail.com" autocomplete="email" required>
-            <textarea id="body" oninput="checkInput()" placeholder="What would you like to say?"></textarea>
-            <br>
-            <div id="value"></div>
+            <br>Your Email:<br><input type="email" id="email" placeholder="YourEmail@coolmail.com" autocomplete="email" required>
+            <textarea id="body" oninput="checkInput()" placeholder="What would you like to say?" cols="40" rows="10"></textarea>
             <br>
             <a id="submitA" target="_top">Send</a>
+            <div id="value"></div>
         </form>
         <div style="height:100px;" class="nav-bar"></div>
         <div id="nav-links-bottom">
             <a href="/about.html" target="_blank" rel="noopener">About Me</a>
             <a href="/contactPage.html" target="_blank" rel="noopener">Contact</a>
             <a href="/page3.html" target="_blank" rel="noopener">Go to Page 3</a>
+            <!-- Majestic Training - Flamingo standing on one leg, doing excercises.
+            rescue fitness, flame sharing, infinite training -->
             <a href="/page4.html" target="_blank" rel="noopener">Go to Page 4</a>
         </div>
         <!-- <svg height="200px" width="200px" id="logo"><rect height="10px" width="10px" x="100" y="100"></rect></svg> -->
-        <script src="/script.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>
