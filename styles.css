@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kalam:wght@300&family=Merienda&family=Staatliches&display=swap');
 
 body#contactBody {
     font-family: 'Bebas Neue', cursive;
@@ -80,7 +79,7 @@ svg#logo {
     left: 10px;
 }
 div#title {
-    background-color: #fe052a;
+    background-color: #fe803c;
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
 
@@ -101,7 +100,8 @@ form#emailForm {
     margin-bottom: 8px;
     padding: 20px calc(5vw);
     color: #fff;
-    background-color: #fe052a;
+    background-color: #fe803c;
+    /* Second Orange: #fe5c05c7; */
     display: block;
     position: absolute;
     left: 0px;
@@ -157,4 +157,12 @@ input#closing {
   resize: none;
   padding: 3px;
   font-size: 16px;
+}
+h1#AboutMeTitle {
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    font-size: 34px;
+    width: 80%;
+    background-color: #fe803c;
+    margin: auto 10% 10% auto;
 }
