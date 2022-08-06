@@ -29,3 +29,10 @@ function checkInput() {
         a.setAttributeNode(href);
     });
 }
+function send() {
+    var mail = document.createElement('a');
+    var href = document.createAttribute("href");
+    href.value = "mailto:AmiTrains@gmail.com";
+    mail.setAttributeNode(href);
+    document.appendChild(mail);
+}
