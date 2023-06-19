@@ -1,24 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kalam:wght@300&family=Merienda&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Audiowide&family=Bitter:wght@500&family=Black+Ops+One&family=Coda&family=Diphylleia&family=Grandiflora+One&family=Koulen&family=Lobster+Two&family=Rubik+Pixels&family=Squada+One&family=Yatra+One&display=swap');
 
 :root {
-    --secondary: #05a7fe;
-    --secondary-block: #05a7fea9;
-    --tertiary: #5d05fe;
-    --primary: #fed905;
+    --primary: #2E3C3D;
+    --secondary: #355D5F;
+    --tertiary: #2978A0;
+    --quaternary: #CDC19D;
+    --quinary: #C7EAFF;
+    --white: #FFFFFF;
 }
 
-body#contactBody {
-    font-family: 'Bebas Neue', cursive;
+body {
+    background-color: var(--primary);
+    color: var(--white);
+    align-content: center;
+    padding: 0px 5vw 0px 5vw;
 }
 
-div.nav-bar {
-    width: 100vw;
-    height: 20%;
-    position: relative;
-    left: 0px;
-    bottom: 0px;
-    background-color: rgb(200,200,200);
+div#container {
+    display: inline-block;
+    background-color: var(--tertiary);
+    text-align: center;
+    padding: 30px;
+    height: 50vh;
+    max-height: 200px;
+    width: 100%;
+    font-family: 'Squada One', cursive;
+    font-size: 50px;
 }
+
+
+
+/*
+~~
 @media screen and (max-height: 800px) {
     div.nav-bar {
         width: 100vw;
@@ -29,6 +42,7 @@ div.nav-bar {
         background-color: rgb(200,200,200);
     }
 }
+~~*/
 div#nav-links-bottom {
     position: fixed;
     left: 15vw;
@@ -41,6 +55,7 @@ div#nav-links-bottom {
     display: flex;
     flex-flow: row wrap;
 }
+
 div#nav-links-bottom > a {
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -108,7 +123,6 @@ div#contact {
     padding: 20px calc(5vw);
     color: #fff;
     background-color: #0126fa;
-    /* Second Orange: #fe5c05c7; */
     display: block;
     position: absolute;
     left: 0px;
@@ -154,21 +168,4 @@ h1#AboutMeTitle {
 body#landingBody {
     align-content: center;
     padding: 0px 5vw 0px 5vw;
-}
-
-div#MainPageContainer {
-    align-content: center;
-    text-align: center;
-    height: 100vh;
-    width: 100%;
-    background-color: var(--primary);
-}
-
-div#FirstPageContainer {
-    align-content: center;
-    text-align: center;
-    height: 100vh;
-    max-height: 200px;
-    width: 100%;
-    background-color: var(--secondary);
 }
